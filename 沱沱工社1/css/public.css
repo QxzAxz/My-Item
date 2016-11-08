@@ -1,0 +1,150 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0;}
+body{font:12px "宋体","微软雅黑","Arial Narrow",HELVETICA;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+em,i,b,strong{font-style:normal; font-weight:100;}
+a{text-decoration:none;outline: none;}
+ul,li,ol{list-style:none;}
+input{border:0; outline:none;}
+img,fieldset{border:0;}
+img{display:block;}
+
+/*top欢迎光临*/
+#top,#ad,#logo,#nav,#banner,#cycle,#recommend,.pic,#vegetable,#meat,#seafood,#milk,#oil,#drink,#daily,#green,#foot,#copy,.branch,#des{width:1180px; margin:0 auto; overflow: hidden;}
+#top{color:#999999;line-height:32px;}
+#topleft{float: left;}
+#topright{float: right;}
+#topleft a{border-right:1px solid #B299B2;padding-right:10px;margin-left:9px;}
+#topleft div{float: left;}
+#topleft .mar{margin-left:-9px;}
+#topleft .gray:hover{background:#E6E6E6;}
+#topleft .welcome{padding-right:2px;margin-left:1px;border-right: 1px solid #B299B2;}
+#topleft .bordernone,#topleft .downbg,#topright .bordernone{border-right: none;}
+#topleft .bordernone{padding-right:0;margin-left:9px;}
+#topleft .downbg{color: #999999;font-weight: bolder;background: url(../img/city_choose.png) no-repeat 84px center;border: 1px solid #E6E6E6;padding:6px 20px 6px 10px;}
+#topright a{border-right:1px solid #B299B2;padding-right:21px;margin-left:18px;color:#999999;}
+#topright .topabg{background:url(../img/phone.jpg) no-repeat left center;padding-left:10px;}
+
+/*top的下拉菜单*/
+#toosel1{background: #F7F7F7;position: absolute;right: 145px;top: 32px;border: 1px solid #EEEEEE;z-index: 2;}
+#toosel2{background: #F7F7F7;position: absolute; right: 192px;top:32px;z-index: 2;border: 1px solid #EEEEEE;}
+#toosel1 .selleft{float: left; margin-top: 17px; margin-left: 5px;margin-bottom: 8px;}
+#toosel1 .selleft img{margin-bottom: 7px;}
+#toosel1 .selright{float: right; margin-top: 7px; margin-left: 8px;margin-right: 5px;border: 1px solid #CDCDCD;}
+#toosel2 ul{width: 88px; text-align: center;}
+#toosel2 ul li{line-height: 19px;margin-bottom: 4px;}
+#toosel2 ul li a{color: #999999;}
+
+/*选择城市*/
+#city{position: absolute;display: none; width:520px; border: 1px solid #B7B6B6; z-index: 6;}
+#please{position: relative;left: 0;top: 0; background: #FFFFFF;}
+.receipt{font-size: 14px; line-height: 36px; margin-left: 21px; color: #444444; font-weight: bolder;}
+#close{position: absolute; right: 16px; top: 14px;cursor: pointer;}
+#other{border-top: 1px solid #BFBFBF; border-bottom: 1px solid #BFBFBF; background: #9F1431;position: relative; left: 0; top: 0; overflow: hidden;}
+.area{line-height: 30px; margin-left: 20px; color: #FFFFFF; font-weight: bolder;float: left;}
+.othercity{float:right; border: 1px dashed #FFFFFF; margin-right: 16px; margin-top: 7px; margin-bottom: 6px;}
+.othercity a{color: #FFFFFF;}
+.othercity img{display: inline-block; margin-left: 9px;}
+#choose{overflow: hidden;}
+#choose ul{overflow: hidden; padding-top: 10px; background: #FFFFFF;}
+#choose ul li{width: 466px;overflow: hidden;line-height: 18px;padding:14px 38px 10px 20px;}
+#choose ul a{color: #000000; margin-right: 11px;}
+#choose .pleft{float: left; color: #851128; font-weight: bolder;}
+#choose .pright{float: left; width: 420px; margin-left: 7px;}
+
+
+/*logo那行*/
+#logo{margin-top: 15px; background: url(../img/logobg.jpg) no-repeat 1000px 10px; }
+.logo{float: left;}
+.ximg{float: left; margin-left: 11px;}
+#logomiddle{width: 456px;float: left;margin-left: 73px; margin-top: 10px;}
+#search{border: 2px solid #939494;}
+.tex{width: 370px; font-size: 14px; line-height: 34px; color: #A8A8A8; padding-left: 6px;}
+.btn{width: 70px; background: #939494; font-size: 16px; color: #FFFFFF; line-height: 34px; font-weight: bolder; cursor: pointer;}
+.hotsearch,.hotsearch a{color: #808080;margin-top: 16px;}
+
+/*nav导航菜单*/
+#nav{position: relative; overflow: visible; height:56px;}
+#nav .navtop{border-bottom: 2px solid #9F1431; width: 1180px;margin-top: 20px;}
+#nav div,#nav p{float: left;}
+#nav .navleft{font-size: 15px;width: 200px; height: 34px; line-height: 34px; text-align: center;}
+#nav .navleft a{color: #9D1430;}
+#nav .navright{font-size: 13px; color: #9D1430;width: 980px; height: 34px; line-height: 34px;}
+#nav .navright p{margin-left: 52px;}
+#nav .navright a{color: #9D1430;}
+#nav .navright .postage{position: relative;}
+#nav .navright .postage img{position: absolute;left: 35px; top: -7px;}
+#nav .navright .card{position: relative;}
+#nav .navright .card img{position: absolute;left: 25px; top: -7px;}
+
+
+
+#menu{position: absolute;left: 0; top: 55px; display: none;}
+/*左边的ul*/
+#ulleft,#ulright{float: left;}
+#ulleft{background: #FFFFFF;filter: alpha(opacity = 90); opacity: 0.9; position: relative;}
+#ulleft li{cursor: pointer;   border-bottom: 1px solid #F2F2F2;padding-right: 7px; overflow: hidden;}
+#ulleft .select{overflow: hidden; margin-left: 50px;}
+#ulleft .select img{width: 29px; height: 24px;float: left;}
+#ulleft .select span{float: left;}
+#ulleft .select .little{margin-top: 8px; margin-right: 7px;}
+#ulleft .select .title{line-height: 38px;padding-right:40px;}
+#ulleft .select .title a{color: #333333;font-size:13px ; font-weight: bolder;}
+
+/*右边的ul*/
+#ulright .minileft,#ulright .miniright{float: left;}
+
+#ulright ul{width: 430px; height: 315px; border-bottom: 1px solid #E6E6E6; border-right: 1px solid #E6E6E6; background: #F2F2F2; filter: alpha(opacity = 80); opacity: 0.8;display: none; position: absolute;left: 193px;}
+#ulright ul li{overflow: hidden; border-bottom: 1px solid #E6E6E6; margin-left: 15px;}
+#ulright .minileft{font-size: 14px; line-height: 22px;font-weight: bolder; margin-top: 11px; margin-bottom: 10px; width: 90px;}
+#ulright .minileft a{color:#000000;}
+#ulright .miniright{line-height: 22px; margin-left: 22px; margin-top: 9px; margin-bottom: 10px;width: 290px;}
+#ulright .miniright a{color: #666666; margin-right: 15px;}
+
+
+
+/*一堆绿色图标*/
+#greenbg{background: #F2F2F2;overflow: hidden;}
+#green{margin-top: 22px; margin-bottom: 20px; }
+#green div{float: left; margin-left: 25px; margin-right: 70px;}
+#green .icon{margin-right: 20px;}
+
+
+/*售后*/
+#foot{padding-left: 10px; padding-top: 21px; padding-bottom: 28px; border-bottom: 1px solid #E6E6E6;}
+#foot .footul{float: left;}
+#foot .footright{float: right;}
+#foot ul{float: left; width: 96px; margin-right: 49px;}
+#foot ul li a{line-height: 21px; color: #808080;}
+#foot ul .bold,.client{line-height: 23px; font-size: 15px;color: #666666; font-weight: bolder;}
+#foot .footright .downleft{float: left;}
+#foot .footright .downright{float: right; margin-left: 50px;}
+#foot .footright .client{margin-top: 0;}
+#foot .footright p{margin-top: 7px;}
+
+#copy{padding-top: 18px; padding-bottom: 13px;}
+#copy .copytop a{color: #808080; background: url(../img/topborder.jpg) no-repeat right center; width: 72px; display: inline-block; text-align: center;}
+#copy .copytop .borderright{background: none;}
+#copy .copytop{width: 697px; margin: 0 auto;}
+#copy .copybottom{width: 953px; margin: 0 auto; color: #808080; margin-top: 11px;}
+
+/*路径*/
+.branch{color: #666666; line-height: 40px; height: 40px;}
+.branch a{color: #666666;}
+
+/*侧边购物车栏*/
+#beside{position:fixed;bottom: 54px;right: 0;}
+#beside .shopcar a{display:block; background: url(../img/shopcar.jpg) no-repeat; width: 60px; height: 60px; margin-bottom: 8px;}
+#beside .shopcar a:hover{background: url(../img/shopcarhover.jpg) no-repeat;}
+#beside .shopcar #shopnumber{width: 20px; height: 20px; background: red; border-radius: 50%; text-align: center; line-height: 20px; color: #FFFFFF; position: absolute; left: 0; top: 0;}
+#beside .take a{display:block; background: url(../img/take.jpg) no-repeat; width: 60px; height: 60px;margin-bottom: 8px;}
+#beside .take a:hover{background: url(../img/takehover.jpg) no-repeat;}
+#beside .gift a{display:block; background: url(../img/gift.jpg) no-repeat; width: 60px; height: 70px;margin-bottom: 8px;}
+#beside .gift a:hover{background: url(../img/gifthover.jpg) no-repeat;}
+#beside .question a{display:block; background: url(../img/question.jpg) no-repeat; width: 60px; height: 60px;margin-bottom: 8px;}
+#beside .question a:hover{background: url(../img/questionhover.jpg) no-repeat;}
+#beside .online a{display:block; background: url(../img/online.jpg) no-repeat; width: 60px; height: 60px;margin-bottom: 8px;}
+#beside .online a:hover{background: url(../img/onlinehover.jpg) no-repeat;}
+#return{position:fixed;bottom: 10px;right: 0; display: none;}
+#return a{display:block; background: url(../img/return.jpg) no-repeat; width: 60px; height: 36px;}
+#return a:hover{background: url(../img/returnhover.jpg) no-repeat;}
+

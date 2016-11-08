@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/des.css" />
+	</head>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src = "js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
+	<script type="text/javascript" src="js/des.js"></script>
+	<body>
+		<!--选择城市-->
+		<div id = 'city'>
+			<div id = 'please'>
+				<p class = 'receipt'>请选择您的收货城市</p>
+				<p id = 'close'><img src='img/city_close.gif' />
+			</p>
+			</div>
+			
+			<div id = 'other'>
+				<p class='area'>沱沱工社32城生鲜配区域</p>
+				<p class = 'othercity' id = 'change'><a href="#">选择全国其他城市<img src='img/city_dn.png' /></a></p>
+			</div>
+			<div id = 'choose'>
+				<ul>
+					
+				</ul>
+			</div>
+		</div>
+		<!--top欢迎光临-->
+		<div id = "top">
+			<div id = "topleft">
+				<div><span class="welcome">欢迎光临沱沱工社！</span></div>
+				<div class="gray"><a href = "#">登录</a></div>
+				<div class="gray"><a href = "#">免费注册</a></div>
+				<div><span class="bordernone">送货至：</span></div>
+				<div class = "mar"><a href="#" id = "citybutton" class = "downbg">北京 东城区</a></div>
+			</div>
+			<p id="topright">
+				<a href="#">English</a>
+				<a href="#" class ="topabg" id = "phonetoo">手机沱沱</a>
+				<a href="#" id = "mytoo">我的沱沱</a>
+				<a href="#">充值</a>
+				<a href="#" class="bordernone">提货</a>
+			</p>
+		</div>
+		<div id = "toosel1">
+			
+		</div>
+		<div id = "toosel2">
+			
+		</div>
+        <!--logo那行-->
+        <div id = "logo">
+        	<p class = "logo"><a href="index.html"><img src = "img/logo.jpg" /></a></p>
+        	<p class="ximg"><img src = "img/index/bfb0a8965b1c77d8fbc5086fbc3f2168.jpg" /></p>
+        	<div id = "logomiddle">
+	        	<div id = "search">
+	        		<input type="text" value="原浆橄榄油" class="tex"/>
+	        		<input type="button" value="搜索" class="btn"/>
+	        	</div>
+	        	<p class = "hotsearch">
+	        		热门搜索：
+	        		<a href="#">农场蔬菜</a>
+	        		<a href="#">鸡蛋</a>
+	        		<a href="#">奇异果</a>
+	        		<a href="#">燕窝</a>
+	        		<a href="#">国产</a>
+	        		<a href="#">蔬菜</a>
+	        	</p>
+        	</div>
+        </div>
+        <div id = "nav">
+	        <div class = "navtop">
+	        	<div class = "navleft"><a href="#">全部商品分类</a></div>
+	        	<div class = "navright">
+	        		<p><a href = "#">首页</a></p>
+		        	<p class = "postage"><a href = "#">沱沱团</a><img src = "img/index/postage.png"/></p>
+		        	<p><a href = "#">沱沱礼品</a></p>
+		        	<p class = "card"><a href = "#">宅配卡</a><img src = "img/index/hot.gif"/></p>
+		        	<p><a href = "#">沱沱农场</a></p>
+		        	<p><a href = "#">入驻沱沱</a></p>
+	        	</div>
+        	</div>
+        	<!--菜单-->
+        	<div id = "menu">
+    			<ul id = "ulleft">
+    				
+    			</ul>
+    			<div id = "ulright">
+    				
+    			</div>
+    		</div>
+        </div>
+        <div class = "branch">
+        	<a href = "#">全部分类</a>&ensp;>&ensp;
+        	<a href = "#">蔬菜水果</a>&ensp;>&ensp;
+        	<a href = "#">水果类</a>&ensp;>&ensp;
+        	国产水果
+        </div>
+        <div id = des>
+        	<div class = "desleft">
+        		<div class="sort">
+        			<div class = "sort1"><a href = "#">蔬菜水果</a></div>
+        			<div class = "sort2"><a href = "#">蔬菜类</a></div>
+        			<div class = "sort3">
+        				<ul>
+        					<li><a href = "#">有机蔬菜</a></li>
+        					<li><a href = "#">地方特产蔬菜/菌类</a></li>
+        					<li><a href = "#">沱沱农场自产蔬菜</a></li>
+        				</ul>
+        			</div>
+        			<div class = "sort2"><a href = "#">水果类</a></div>
+        			<div class = "sort3">
+        				<ul>
+        					<li><a href = "#">有机水果</a></li>
+        					<li class = "sele"><a href = "#">国产水果</a></li>
+        					<li><a href = "#">进口水果</a></li>
+        				</ul>
+        			</div>
+        		</div>
+        		<div class = "hotsale">
+        			<div class = "sort1">热销排行</div>
+        			<div class = "hotbottom"></div>
+        		</div>
+        		<div class = "about">
+        			<div class = "sort1">关注排行</div>
+        			<div class = "hotbottom"></div>
+        		</div>
+        	</div>
+        	<div class = "desright">
+        		<div class = "recommend">沱沱力荐</div>
+        		<div class = "desrecommend"></div>
+        		<div class = "decor">
+        			<ul>
+        				<li>
+        					<div class = "labelleft">特性：</div>
+        					<div class = "labelright">
+        						<a href = "#">国产</a>
+        						<a href = "#">有机</a>
+        					</div>
+        				</li>
+        				<li>
+        					<div class = "labelleft">特性：</div>
+        					<div class = "labelright">
+        						<a href = "#">其他</a>
+        					</div>
+        				</li>
+        			</ul>
+        		</div>
+        		<div class = "selct">
+        			<ul>
+        				<li class = "dashed">
+        					<div class = "labelleft">排序：</div>
+        					<div class = "labelright1">
+        						<a href = "#">销量</a>
+        						<a href = "#">促销</a>
+        						<a href = "#">价格</a>
+        						<a href = "#">新上架</a>
+        						<a href = "#">人气度</a>
+        					</div>
+        				</li>
+        				<li>
+        					<div class = "labelleft">筛选：</div>
+        					<div class = "labelright">
+        						<p><input type = "checkbox" /><a href = "#">会员折扣</a></p>
+        						<p><input type = "checkbox" /><a href = "#">仅显示可送达</a></p>
+        					</div>
+        					<div class = "skip">
+        						<span>1/3</span>
+        						<a href="#" class = "a1"></a>
+        						<a href="#" class = "a2"></a>
+        					</div>
+        				</li>
+        			</ul>
+        		</div>
+        		<div class = "deslist">
+        			
+        		</div>
+        	</div>
+        </div>
+        
+         <!--绿色标志-->
+        <div id = "greenbg">
+        	<div id = "green">
+        		<div>
+        			<img src = "img/index/green1.png" />
+        		</div>
+        		<div>
+        			<img src = "img/index/green2.png" />
+        		</div>
+        		<div>
+        			<img src = "img/index/green3.png" />
+        		</div>
+        		<div>
+        			<img src = "img/index/green4.png" />
+        		</div>
+        		<div class = "icon">
+        			<img src = "img/index/green5.png" />
+        		</div>
+        		<div class = "icon">
+        			<img src = "img/index/green6.png" />
+        		</div>
+        	</div>
+        </div>
+        <!--售后-->
+        <div id = "foot">
+        	<div class="footul">
+	        	<ul>
+	        		<li class = "bold">食品安全</li>
+	        		<li><a href = "#">自营沱沱有机农场</a></li>
+	        		<li><a href = "#">沱沱工社采购标准</a></li>
+	        		<li><a href = "#">透明社区经营理念</a></li>
+	        		<li><a href = "#">我们的资质</a></li>
+	        	</ul>
+	        	<ul>
+	        		<li class = "bold">新手教程</li>
+	        		<li><a href = "#">购物流程</a></li>
+	        		<li><a href = "#">注册登录</a></li>
+	        		<li><a href = "#">账户充值</a></li>
+	        		<li><a href = "#">如何提货</a></li>
+	        		<li><a href = "#">会员政策</a></li>
+	        	</ul>
+	        	<ul>
+	        		<li class = "bold">配送方式</li>
+	        		<li><a href = "#">配送范围</a></li>
+	        		<li><a href = "#">运费标准</a></li>
+	        	</ul>
+	        	<ul>
+	        		<li class = "bold">支付方式</li>
+	        		<li><a href = "#">在线支付</a></li>
+	        		<li><a href = "#">账户余额支付</a></li>
+	        		<li><a href = "#">多种福利卡</a></li>
+	        	</ul>
+	        	<ul>
+	        		<li class = "bold">售后服务</li>
+	        		<li><a href = "#">退换货政策</a></li>
+	        		<li><a href = "#">退换货流程</a></li>
+	        		<li><a href = "#">退款</a></li>
+	        		<li><a href = "#">投诉建议</a></li>
+	        	</ul>
+	        	<ul>
+	        		<li class = "bold">帮助信息</li>
+	        		<li><a href = "#">安全食品采购指南</a></li>
+	        		<li><a href = "#">常见问题</a></li>
+	        		<li><a href = "#">电子优惠券的使用</a></li>
+	        		<li><a href = "#">礼品卡</a></li>
+	        	</ul>
+        	</div>
+        	<div class = "footright">
+        		<div class = "downleft">
+        			<p class = "client">客户端下载</p>
+        			<p><img src = "img/index/down_m.png"/></p>
+        			<p><img src = "img/index/down.png"/></p>
+        		</div>
+        		<div class = "downright">
+        			<p class = "client">关注沱沱微信</p>
+        			<p><img src = "img/index/weixian_er.png"/></p>
+        			<p><img src = "img/index/weix_span.png"/></p>
+        		</div>
+        	</div>
+        </div>
+        <div id = "copy">
+        	<p class = "copytop">
+        		<a href = "#">关于我们</a>
+        		<a href = "#">联系我们</a>
+        		<a href = "#">服务条款</a>
+        		<a href = "#">友情链接</a>
+        		<a href = "#">网站地图</a>
+        		<a href = "#">帮助中心</a>
+        		<a href = "#">九城集团</a>
+        		<a href = "#">沱沱网</a>
+        		<a href = "#" class = "borderright">企业员工内购</a>
+        	</p>
+        	<p class = "copybottom">Copyright&copy;2009北京沱沱工社生态农业有限公司 版权所有 京ICP证100205号 京ICP备09043401号 京公网安备 110105019943 食品流通 醋可证编号SP1101091310024845</p>
+        </div>
+        <div id = "beside">
+        	<div class = "shopcar"><a href = "#"></a>
+        		<div id = "shopnumber">0</div>
+        	</div>
+        	<div class = "take"><a href = "#"></a></div>
+        	<div class = "gift"><a href = "#"></a></div>
+        	<div class = "question"><a href = "#"></a></div>
+        	<div class = "online"><a href = "#"></a></div>
+        </div>
+        <div id = "return"><a href = "#"></a></div>
+	</body>
+</html>

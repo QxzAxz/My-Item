@@ -1,0 +1,103 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0;}
+body{font:12px "宋体","微软雅黑","Arial Narrow",HELVETICA;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+em,i,b,strong{font-style:normal; font-weight:100;}
+a{text-decoration:none;outline: none;}
+ul,li,ol{list-style:none;}
+input{border:0; outline:none;}
+img,fieldset{border:0;}
+img{display:block;}
+
+
+/*详情左侧一长排*/
+/*第一个小选项卡部分*/
+#des .desleft{float: left;}
+#des .desright{float: right;}
+#des .desleft .sort,.hotsale,.about{border: 1px solid #D2D2D2; border-bottom: none; width: 198px;}
+#des .desleft .sort .sort1,.hotsale .sort1,.about .sort1{font-size: 14px; line-height: 32px; font-weight: bolder; border-bottom: 1px solid #D2D2D2; cursor: pointer;}
+#des .desleft .sort .sort1 a{color: #444444; margin-left: 10px;}
+#des .desleft .sort .sort2{ font-weight: bolder;line-height: 32px;border-bottom: 1px solid #D2D2D2; background: url(../img/desright.png) no-repeat 180px center;cursor: pointer;}
+#des .desleft .sort .sort2 a{color: #666666;margin-left: 10px;}
+#des .desleft .sort .sort3{line-height: 25px;border-bottom: 1px solid #D2D2D2;cursor: pointer;}
+#des .desleft .sort .sort3 ul{margin-top: 6px; margin-bottom: 5px;}
+#des .desleft .sort .sort3 ul li{ margin-left: 20px;}
+#des .desleft .sort .sort3 a{color: #666666;}
+
+/*热销排行*/
+#des .desleft .hotsale,#des .desleft .about{margin-top: 15px;}
+#des .desleft .hotsale .sort1,.about .sort1{padding-left: 10px; cursor: auto;}
+.hotbottom{border-top: 1px solid #D2D2D2; border-bottom: 1px solid #D2D2D2;}
+.hotbottom ul{ margin-bottom: 28px;}
+.hotbottom ul li{margin-left: 17px; margin-right: 16px; margin-top: 25px;}
+.hotbottom ul li div{position: relative;}
+.hotbottom ul li div .bigimg{}
+.hotbottom ul li div .bigimg img{width: 165px; height: 165px;}
+.hotbottom ul li div .add{position: absolute;left: 0;bottom: 0; width: 165px; height: 25px; background: #000000;filter: alpha(opacity=30);opacity: 0.3;display: none;}
+.hotbottom ul li div .add a{color: #FFFFFF; text-align: center; line-height: 25px; background: url(../img/car.jpg) no-repeat left center; display: block; width: 80px; margin-left: 43px; padding-left: 20px;}
+.hotbottom ul li div .add a:hover{text-decoration: underline;}
+.hotbottom ul li div .topimg{position: absolute; left: 0; top: 0;}
+.hotbottom ul li .price,.desrecommend .price{font-size: 16px; color: #F10F00; font-weight: bolder; margin-top: 7px; margin-bottom: 7px;}
+.hotbottom ul li .title{width: 165px; white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.hotbottom ul li .title a,.desrecommend .title a{color: #666666;}
+.hotbottom ul li .title a:hover,.desrecommend .title a:hover{color: #9F1431;text-decoration: underline;}
+
+.desright .recommend{color: #333333; font-size: 14px; font-weight: bolder; line-height: 33px; border-bottom: 2px solid #D2D2D2; width: 960px;}
+
+/*推荐的三个产品*/
+.desright .desrecommend ul{overflow: hidden;}
+.desright .desrecommend ul li{float: left; margin: 25px 10px 0 15px; width: 290px;}
+.desright .desrecommend ul li .littleimg{float: left;}
+.desright .desrecommend ul li .littleimg img{width: 110px; height: 110px;}
+.desright .desrecommend ul li div{float: right;}
+.desright .desrecommend ul li div .title{margin-top: 9px;}
+.desright .desrecommend ul li div .price{margin-top: 30px;}
+.desright .desrecommend ul li div .addcar a,.deslist ul li div .addcar a{background: url(../img/shopcarwhite.jpg) no-repeat;display: block; width: 94px; height: 24px;} 
+.desright .desrecommend ul li div .addcar a:hover,.deslist ul li div .addcar a:hover{background: url(../img/shopcarred.jpg) no-repeat;}
+
+/*产品特性品牌*/
+.decor{border-top: 3px solid #D2D2D2; margin-top: 48px;}
+.decor ul li{overflow: hidden; line-height: 39px; border-bottom: 1px dashed #D1D1D1;}
+.decor ul li .labelleft{float: left; color: #999999; font-weight: bolder; margin-left: 20px;}
+.decor ul li .labelright{float: left; margin-left: 15px;}
+.decor ul li .labelright a{color: #666666;}
+
+/*排序销量*/
+.selct{ border: 1px solid #D2D2D2; background: #FAFAFA; margin-top: 10px;}
+.selct ul{margin-left: 15px; margin-right: 15px;}
+.selct ul li{overflow: hidden; line-height: 39px;}
+.selct ul .dashed{border-bottom: 1px dashed #D1D1D1;}
+.selct ul li .labelleft{float: left; color: #999999; font-weight: bolder;}
+.selct ul li .labelright{float: left; margin-left: 10px;}
+.selct ul li .labelright p{float: left; margin-right: 19px;}
+.selct ul li .labelright p a{color: #666666; margin-left: 6px;}
+.selct ul li .labelright1{float:left;margin-left: 10px;}
+.selct ul li .labelright1 a{display: inline-block; width: 43px; height: 22px; border: 1px solid #D2D2D2;  line-height: 22px;color: #666666; background: url(../img/low.jpg) no-repeat 40px center; padding-left: 11px;}
+.selct ul li .labelright1 a:hover{border: 1px solid #9F1431;text-decoration: underline;}
+.selct ul li .skip{float: right;}
+.selct ul li .skip a{display: inline-block; width: 20px; height: 15px; margin-bottom: -5px;}
+.selct ul li .skip .a1{ background: url(../img/skipleftwhite.jpg) no-repeat;}
+.selct ul li .skip .a1:hover{background: url(../img/skipleftgray.jpg) no-repeat;}
+.selct ul li .skip .a2{background: url(../img/skiprightwhite.jpg) no-repeat;}
+.selct ul li .skip .a2:hover{background: url(../img/skiprightgray.jpg) no-repeat;}
+
+
+/*商品详情*/
+.deslist a{color: #666666;}
+.deslist a:hover{text-decoration: underline; color: #9D1430;}
+.deslist ul{overflow: hidden;width: 970px;}
+.deslist ul li{float: left;width:210px; margin:20px 10px 0 0; border:1px solid #E8E8E8; padding:10px;}
+.deslist ul li:hover{border:1px solid #B03D55;}
+.deslist ul li .listimg img{width: 210px; height: 210px;}
+.deslist ul li .title{line-height: 21px; margin-top: 8px;}
+.deslist ul li .title span{color: #FF6600;}
+.deslist ul li .price{font-size: 18px; color: #F10F00; font-weight: bolder; margin-top: 7px; margin-bottom: 7px; margin-left: 15px;}
+.deslist ul li .talk{ margin-left: 5px; margin-top: 13px; overflow: hidden; margin-bottom: 13px;}
+.deslist ul li .talk span{float: left; color: #9F1431;}
+.deslist ul li .talk a{float: right;}
+.deslist ul li div{ overflow: hidden;}
+.deslist ul li div .addnum{float: left; width: 56px;}
+.deslist ul li div .addnum input{border: 1px solid #DADADA; width: 37px; height: 22px;float: left;}
+.deslist ul li div .addnum a{display: block;width: 15px; height: 11px;float: left; margin-left: 2px; cursor: pointer;}
+.deslist ul li div .addnum .increase{background: url(../img/increase.jpg) no-repeat;}
+.deslist ul li div .addnum .decrease{background: url(../img/decreasedark.jpg) no-repeat; margin-top: 2px;}
+.deslist ul li div .addcar{float: right; cursor: pointer;}

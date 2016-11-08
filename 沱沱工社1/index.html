@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<style>
+			
+			
+		</style>
+	</head>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src = "js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+	<script></script>
+	<body>
+		<!--选择城市-->
+		<div id = 'city'>
+			<div id = 'please'>
+				<p class = 'receipt'>请选择您的收货城市</p>
+				<p id = 'close'><img src='img/city_close.gif' />
+			</p>
+			</div>
+			
+			<div id = 'other'>
+				<p class='area'>沱沱工社32城生鲜配区域</p>
+				<p class = 'othercity' id = 'change'><a href="#">选择全国其他城市<img src='img/city_dn.png' /></a></p>
+			</div>
+			<div id = 'choose'>
+				<ul>
+					
+				</ul>
+			</div>
+		</div>
+		<!--top欢迎光临-->
+		<div id = "top">
+			<div id = "topleft">
+				<div><span class="welcome">欢迎光临沱沱工社！</span></div>
+				<div class="gray"><a href = "#">登录</a></div>
+				<div class="gray"><a href = "#">注册</a></div>
+				<div><span class="bordernone">送货至：</span></div>
+				<div class = "mar"><a href="#" id = "citybutton" class = "downbg">北京 东城区</a></div>
+			</div>
+			<p id="topright">
+				<a href="#">English</a>
+				<a href="#" class ="topabg" id = "phonetoo">手机沱沱</a>
+				<a href="#" id = "mytoo">我的沱沱</a>
+				<a href="#">充值</a>
+				<a href="#" class="bordernone">提货</a>
+			</p>
+		</div>
+		<div id = "toosel1">
+			
+		</div>
+		<div id = "toosel2">
+			
+		</div>
+		<!--可以关闭的广告-->
+        <div id = "ad">
+        	<a href="#">
+        		<div id = "topimg">
+        		<img src="img/off.png" />
+        		<p id = "adclose"><img src="img/ad_close.png"</p>
+        	</div>
+        	</a>
+        		
+        </div>
+        <!--logo那行-->
+        <div id = "logo">
+        	<p class = "logo"><a href="index.html"><img src = "img/logo.jpg" /></a></p>
+        	<p class="ximg"><img src = "img/index/bfb0a8965b1c77d8fbc5086fbc3f2168.jpg" /></p>
+        	<div id = "logomiddle">
+	        	<div id = "search">
+	        		<input type="text" value="原浆橄榄油" class="tex"/>
+	        		<input type="button" value="搜索" class="btn"/>
+	        	</div>
+	        	<p class = "hotsearch">
+	        		热门搜索：
+	        		<a href="#">农场蔬菜</a>
+	        		<a href="#">鸡蛋</a>
+	        		<a href="#">奇异果</a>
+	        		<a href="#">燕窝</a>
+	        		<a href="#">国产</a>
+	        		<a href="#">蔬菜</a>
+	        	</p>
+        	</div>
+        </div>
+        <div id = "nav">
+        	<div class = "navleft"><a href="#">全部商品分类</a></div>
+        	<div class = "navright">
+        		<p><a href = "#">首页</a></p>
+	        	<p class = "postage"><a href = "#">沱沱团</a><img src = "img/index/postage.png"/></p>
+	        	<p><a href = "#">沱沱礼品</a></p>
+	        	<p class = "card"><a href = "#">宅配卡</a><img src = "img/index/hot.gif"/></p>
+	        	<p><a href = "#">沱沱农场</a></p>
+	        	<p><a href = "#">入驻沱沱</a></p>
+        	</div>
+        </div>
+        
+        
+        <!--大轮播图-->
+        <div id = "bannerbox">
+	        <div id = "bannerbg" class = "bannerbg">
+	       
+	        	<ul class = "photo">
+	        		<li><img src = "img/index/tp1.jpg"/></li>
+	        		<li><img src = "img/index/tp2.jpg"/></li>
+	        		<li><img src = "img/index/tp3.jpg"/></li>
+	        		<li><img src = "img/index/tp4.jpg"/></li>
+	        		<li><img src = "img/index/tp5.jpg"/></li>
+	        		<li><img src = "img/index/tp6.jpg"/></li>
+	        		<li><img src = "img/index/tp7.jpg"/></li>
+	        		<li><img src = "img/index/tp8.jpg"/></li>
+	        		<li><img src = "img/index/tp1.jpg"/></li>
+	        	</ul>
+	        	<!--上面的菜单-->
+	        	<div id = "banner">
+	        		<div id = "menu">
+	        			<ul id = "ulleft">
+	        				
+	        			</ul>
+	        			<div id = "ulright">
+	        				
+	        			</div>
+	        		</div>
+	        		<!--小按钮和左右箭头-->
+	        		<div id = "arrows">
+	        			<p class = "arrowsleft" id = "arrowsleft">&lt;</p>
+	        			<p class = "arrowsright" id = "arrowsright">&gt;</p>
+	        			<ul class = "number">
+			        		<li class = "active">1</li>
+			        		<li>2</li>
+			        		<li>3</li>
+			        		<li>4</li>
+			        		<li>5</li>
+			        		<li>6</li>
+			        		<li>7</li>
+			        		<li>8</li>
+			        	</ul>
+	        		</div>
+	        		<!--右边的图片-->
+	        		<div id = "bannerimg">
+	        			<a href="#"><img src = "img/index/bannerimg.jpg"/></a>
+	        		</div>
+	        	</div>
+	        </div>
+		</div>        
+        <!--双11滚动图-->
+        <div id = "cyclebox">
+	        <div id = "cycle">
+	        	<a id = "rollleft"></a>
+	    		<div id = "roll">
+	    			<ul>
+	    				
+	    			</ul>
+	    		</div>
+	        	<a id = "rollright"></a>
+	        </div>
+        </div>
+        <!--沱沱力荐那行-->
+        <div id = "recommend">
+        	<div class = "label">
+        		
+        	</div>
+        	<div class = "commodity">
+        	
+        	</div>
+        </div>
+        <!--一行图片-->
+        <div class = "pic">
+        	<a href = "#"><img src = "img/index/1.jpg" /></a>
+        	<a href = "#"><img src = "img/index/2.jpg" /></a>
+        	<a href = "#"><img src = "img/index/3.jpg"/></a>
+        </div>
+        <!--蔬菜水果-->
+        <div id = "vegetable">
+        	<div class = "labelbox">
+	        	<div class = "vegetable">蔬菜水果</div>
+	        	<div class = "label1">
+	        		<p class = "act1">特惠专区</p>
+	        		<p>有机蔬菜</p>
+	        		<p>国产水果</p>
+	        		<p>进口水果</p>
+	        	</div>
+        	</div>
+        	<div id = "desbox">
+        		<div class = "leftphoto"><a href = "#"><img src = "img/index/left1.jpg"/></a></div>
+        		<div class = "des">
+        			
+        		</div>
+        	</div>
+        </div>
+        <!--肉类禽蛋-->
+        <div id = "meat">
+        	<div class = "labelbox">
+	        	<div class = "meat">肉类禽蛋</div>
+	        	<div class = "label1">
+	        		<p class = "act1">特惠专区</p>
+	        		<p>禽蛋</p>
+	        		<p>肉类</p>
+	        		<p>冷冻冷藏</p>
+	        	</div>
+        	</div>
+        	<div id = "desbox2">
+        		<div class = "leftphoto"><a href = "#"><img src = "img/index/left2.jpg"/></a></div>
+        		<div class = "des">
+        			
+        		</div>
+        	</div>
+        </div>
+        <!--海鲜水产-->
+         <div id = "seafood">
+        	<div class = "labelbox">
+	        	<div class = "seafood">海鲜水产</div>
+	        	<div class = "label1">
+	        		<p class = "act1">特惠专区</p>
+	        		<p>鱼类</p>
+	        		<p>虾类</p>
+	        		<p>蟹/贝</p>
+	        	</div>
+        	</div>
+        	<div id = "desbox3">
+        		<div class = "leftphoto"><a href = "#"><img src = "img/index/left3.jpg"/></a></div>
+        		<div class = "des">
+        			
+        		</div>
+        	</div>
+        </div>
+        <!--奶类烘焙-->
+         <div id = "milk">
+        	<div class = "labelbox">
+	        	<div class = "milk">奶类烘焙</div>
+	        	<div class = "label1">
+	        		<p class = "act1">特惠专区</p>
+	        		<p>奶类烘焙</p>
+	        	</div>
+        	</div>
+        	<div id = "desbox4">
+        		<div class = "leftphoto"><a href = "#"><img src = "img/index/left4.jpg"/></a></div>
+        		<div class = "des">
+        			
+        		</div>
+        	</div>
+        </div>
+        <!--粮油副食-->
+         <div id = "oil">
+        	<div class = "labelbox">
+	        	<div class = "oil">粮油副食</div>
+	        	<div class = "label1">
+	        		<p class = "act1">特惠专区</p>
+	        		<p>米面油</p>
+	        		<p>杂粮</p>
+	        		<p>干货调味</p>
+	        	</div>
+        	</div>
+        	<div id = "desbox5">
+        		<div class = "leftphoto"><a href = "#"><img src = "img/index/left5.jpg"/></a></div>
+        		<div class = "des">
+        			
+        		</div>
+        	</div>
+        </div>
+        <!--休食冲饮-->
+         <div id = "drink">
+        	<div class = "labelbox">
+	        	<div class = "drink">休食冲饮</div>
+	        	<div class = "label1">
+	        		<p class = "act1">特惠专区</p>
+	        		<p>休闲食品</p>
+	        	</div>
+        	</div>
+        	<div id = "desbox6">
+        		<div class = "leftphoto"><a href = "#"><img src = "img/index/left6.jpg"/></a></div>
+        		<div class = "des">
+        			
+        		</div>
+        	</div>
+        </div>
+        <!--生态日用-->
+         <div id = "daily">
+        	<div class = "labelbox">
+	        	<div class = "daily">生态日用</div>
+	        	<div class = "label1">
+	        		<p class = "act1">特惠专区</p>
+	        		<p>健康家纺</p>
+	        		<p>清洁用品</p>
+	        		<p>天然美护</p>
+	        	</div>
+        	</div>
+        	<div id = "desbox7">
+        		<div class = "leftphoto"><a href = "#"><img src = "img/index/left7.jpg"/></a></div>
+        		<div class = "des">
+        			
+        		</div>
+        	</div>
+        </div>
+        <!--绿色标志-->
+        <div id = "greenbg">
+        	<div id = "green">
+        		<div>
+        			<img src = "img/index/green1.png" />
+        		</div>
+        		<div>
+        			<img src = "img/index/green2.png" />
+        		</div>
+        		<div>
+        			<img src = "img/index/green3.png" />
+        		</div>
+        		<div>
+        			<img src = "img/index/green4.png" />
+        		</div>
+        		<div class = "icon">
+        			<img src = "img/index/green5.png" />
+        		</div>
+        		<div class = "icon">
+        			<img src = "img/index/green6.png" />
+        		</div>
+        	</div>
+        </div>
+        <!--售后-->
+        <div id = "foot">
+        	<div class="footul">
+	        	<ul>
+	        		<li class = "bold">食品安全</li>
+	        		<li><a href = "#">自营沱沱有机农场</a></li>
+	        		<li><a href = "#">沱沱工社采购标准</a></li>
+	        		<li><a href = "#">透明社区经营理念</a></li>
+	        		<li><a href = "#">我们的资质</a></li>
+	        	</ul>
+	        	<ul>
+	        		<li class = "bold">新手教程</li>
+	        		<li><a href = "#">购物流程</a></li>
+	        		<li><a href = "#">注册登录</a></li>
+	        		<li><a href = "#">账户充值</a></li>
+	        		<li><a href = "#">如何提货</a></li>
+	        		<li><a href = "#">会员政策</a></li>
+	        	</ul>
+	        	<ul>
+	        		<li class = "bold">配送方式</li>
+	        		<li><a href = "#">配送范围</a></li>
+	        		<li><a href = "#">运费标准</a></li>
+	        	</ul>
+	        	<ul>
+	        		<li class = "bold">支付方式</li>
+	        		<li><a href = "#">在线支付</a></li>
+	        		<li><a href = "#">账户余额支付</a></li>
+	        		<li><a href = "#">多种福利卡</a></li>
+	        	</ul>
+	        	<ul>
+	        		<li class = "bold">售后服务</li>
+	        		<li><a href = "#">退换货政策</a></li>
+	        		<li><a href = "#">退换货流程</a></li>
+	        		<li><a href = "#">退款</a></li>
+	        		<li><a href = "#">投诉建议</a></li>
+	        	</ul>
+	        	<ul>
+	        		<li class = "bold">帮助信息</li>
+	        		<li><a href = "#">安全食品采购指南</a></li>
+	        		<li><a href = "#">常见问题</a></li>
+	        		<li><a href = "#">电子优惠券的使用</a></li>
+	        		<li><a href = "#">礼品卡</a></li>
+	        	</ul>
+        	</div>
+        	<div class = "footright">
+        		<div class = "downleft">
+        			<p class = "client">客户端下载</p>
+        			<p><img src = "img/index/down_m.png"/></p>
+        			<p><img src = "img/index/down.png"/></p>
+        		</div>
+        		<div class = "downright">
+        			<p class = "client">关注沱沱微信</p>
+        			<p><img src = "img/index/weixian_er.png"/></p>
+        			<p><img src = "img/index/weix_span.png"/></p>
+        		</div>
+        	</div>
+        </div>
+        <div id = "copy">
+        	<p class = "copytop">
+        		<a href = "#">关于我们</a>
+        		<a href = "#">联系我们</a>
+        		<a href = "#">服务条款</a>
+        		<a href = "#">友情链接</a>
+        		<a href = "#">网站地图</a>
+        		<a href = "#">帮助中心</a>
+        		<a href = "#">九城集团</a>
+        		<a href = "#">沱沱网</a>
+        		<a href = "#" class = "borderright">企业员工内购</a>
+        	</p>
+        	<p class = "copybottom">Copyright&copy;2009北京沱沱工社生态农业有限公司 版权所有 京ICP证100205号 京ICP备09043401号 京公网安备 110105019943 食品流通 醋可证编号SP1101091310024845</p>
+        </div>
+        <div id = "beside">
+        	<div class = "shopcar"><a href = "#"></a>
+        		<div id = "shopnumber">0</div>
+        	</div>
+        	<div class = "take"><a href = "#"></a></div>
+        	<div class = "gift"><a href = "#"></a></div>
+        	<div class = "question"><a href = "#"></a></div>
+        	<div class = "online"><a href = "#"></a></div>
+        </div>
+        <div id = "return"><a href = "#"></a></div>
+	</body>
+</html>
