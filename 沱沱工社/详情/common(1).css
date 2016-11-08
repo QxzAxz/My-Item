@@ -1,0 +1,37 @@
+.ttop_more,.ttop_li_po,.ttop{z-index: 10;}
+.theadtop{z-index: 100;}
+.ttop_li_cont,.ttop_li_mocont,.ttop_li_modown{z-index: 0;}
+.ttop_li_cont{*position:static;*margin-left:-10px;}
+.ttop_li_mospan{*position:static;*z-index: 0;}
+
+.float-box{position:fixed; right:10px;bottom:54px;z-index:10;}
+.float-box a{color: #999;display:block;height:100%;padding-top: 37px;text-align: center;}
+.float-box a:hover{text-decoration: none;color:#9f1431;}
+.float-box-item{width:60px;height:60px;margin: 10px 0;background-color: #f2f2f2;}
+.float-box-cart{position:relative; background: url(http://misc.ttmimg.com/images/cn/ticon/ico_05.png) no-repeat center 10px;}
+.float-box-cart:hover{background: url(http://misc.ttmimg.com/images/cn/ticon/ico_05_h.png) no-repeat center 10px;}
+.float-box-cart span{position: absolute;left: -5px;top: -11px; color: white; height: 30px; line-height: 38px; text-align: center; width: 30px;background: url(http://misc.ttmimg.com/images/cn/ticon/shopping_s.png) no-repeat center 10px;}
+.float-box-delivery{background: url(http://misc.ttmimg.com/images/cn/ticon/ico_04.png) no-repeat center 10px;}
+.float-box-delivery:hover{background: url(http://misc.ttmimg.com/images/cn/ticon/ico_04_h.png) no-repeat center 10px;}
+.float-box-recharge{padding-top: 30px !important;background: url(http://misc.ttmimg.com/images/cn/ticon/ico_03.png) no-repeat center 10px;}
+.float-box-rechargeHeight{height: 70px;}
+.float-box-recharge:hover{position:relative; background: url(http://misc.ttmimg.com/images/cn/ticon/ico_03_h.png) no-repeat center 10px;}
+.float-box-feedback{background: url(http://misc.ttmimg.com/images/cn/ticon/ico_02.png) no-repeat center 10px;}
+.float-box-feedback:hover{background: url(http://misc.ttmimg.com/images/cn/ticon/ico_02_h.png) no-repeat center 10px;}
+.float-box-service{background: url(http://misc.ttmimg.com/images/cn/ticon/ico_01.png) no-repeat center 10px;}
+.float-box-service:hover{background: url(http://misc.ttmimg.com/images/cn/ticon/ico_01_h.png) no-repeat center 10px;}
+.float-box-goTop{height: 36px; position: absolute; bottom: -45px;}
+.float-box-goTop a{padding-top: 0 !important;background: url(http://misc.ttmimg.com/images/cn/ticon/top.png) no-repeat center;}
+.float-box-goTop a:hover{background: url(http://misc.ttmimg.com/images/cn/ticon/top_h.png) no-repeat center;}
+
+.float-cart{display: none;position: fixed !important;right: 10px;top:80px;z-index:100;}
+.newshopp_goods{overflow: auto;}
+.newshopp_area1_tit,.newshopp_goods_list{width: auto;}
+.newshopp_border{width: 95%;clear: both;}
+.minicart-item-hide{display: none;}
+.more_goods{padding-top: 5px;}
+.tip_order {z-index: 0; left: auto; top: auto; position: static; }
+#zyzy{display:none;}
+#littAds{display:none;height:0px;overflow:hidden;}
+#bigAds{display:none;height:0px;}
+.tip_order .tip_detail {background: none;border: 10px solid rgba(0, 0, 0, 0.2); height: auto; margin: 0; padding: 0; position: static; text-align: left; width: 460px; }

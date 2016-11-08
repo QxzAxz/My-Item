@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****宽屏代码***/
+/******顶部导航******/
+.tcont{width:1180px; margin:0 auto; padding:0px;}
+.ttop_l{width:590px; float:left; overflow:hidden;height:32px; line-height:32px; font-size:12px; color:#999;}
+.tcity_tit{float:left; width:260px; height:32px; line-height:32px; margin:0 0 0 10px; display:inline;}
+.ttop_r{width:590px; float:left; height:32px; line-height:32px; font-size:12px; color:#999;}
+/******导航*****/
+.tnavcont{width:1180px; margin:0 auto; padding:0px;}
+.tnav{width:100%; float:left; margin:20px 0 0 0; position:relative; height:34px; border-bottom:2px solid #9f1431; z-index:9;}
+.tnav_list{width:980px; float:left; height:34px; line-height:34px;font-family:"微软雅黑"; color:#1a1a1a;}
+/**********搜索**********/
+.tsearch{width:458px; height:70px; float:left; margin:15px 0 0 65px; display:inline;}
+.tsearch_count{width:450px; float:left; clear:both; margin:10px 0 0 8px; display:inline;}
+.tsearch_c_input{width:376px; height:34px; border:2px solid #939494; float:left;}
+.tsearch_c_input input {width: 370px;height: 34px;line-height: 34px;float: left;padding: 0px 0px 0px 6px;border: 0px none;color: #666;font-size: 14px;}
+.tsearch_hot{width:376px; overflow:hidden; font-size:12px; float:left; margin:8px 0 0 0; color:#808080; font-family:"微软雅黑";}
+
+/****宽屏代码***/

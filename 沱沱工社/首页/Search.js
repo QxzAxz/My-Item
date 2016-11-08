@@ -1,0 +1,1 @@
+_BFD._callback([0, "ok", [[0, "ok", "9282ecf4bbcd53b0473b000000645812f758Search8EBD9AAF_F519_5FE3_754B_F1BDCC6F2ADC", [{"word": "虾"}, {"word": "鱼/虾"}, {"word": "海鲜水产"}, {"word": "私人护肤"}, {"word": "有机奶"}, {"word": "奶制品"}]]]])
